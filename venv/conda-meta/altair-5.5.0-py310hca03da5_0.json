@@ -1,0 +1,876 @@
+{
+  "build": "py310hca03da5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [
+    "pandas >=1.1.3",
+    "vega_datasets >=0.9.0",
+    "anywidget >=0.9.0",
+    "pyarrow >=11",
+    "vl-convert-python >=1.7.0"
+  ],
+  "depends": [
+    "packaging",
+    "jinja2",
+    "python >=3.10,<3.11.0a0",
+    "jsonschema >=3.0",
+    "narwhals >=1.14.2",
+    "typing-extensions >=4.10.0"
+  ],
+  "extracted_package_dir": "/opt/anaconda3/pkgs/altair-5.5.0-py310hca03da5_0",
+  "files": [
+    "lib/python3.10/site-packages/altair-5.5.0.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/altair-5.5.0.dist-info/METADATA",
+    "lib/python3.10/site-packages/altair-5.5.0.dist-info/RECORD",
+    "lib/python3.10/site-packages/altair-5.5.0.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/altair-5.5.0.dist-info/WHEEL",
+    "lib/python3.10/site-packages/altair-5.5.0.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/altair-5.5.0.dist-info/licenses/LICENSE",
+    "lib/python3.10/site-packages/altair/__init__.py",
+    "lib/python3.10/site-packages/altair/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/__pycache__/_magics.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/__pycache__/theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/_magics.py",
+    "lib/python3.10/site-packages/altair/expr/__init__.py",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/consts.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/__pycache__/funcs.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/expr/consts.py",
+    "lib/python3.10/site-packages/altair/expr/core.py",
+    "lib/python3.10/site-packages/altair/expr/funcs.py",
+    "lib/python3.10/site-packages/altair/jupyter/__init__.py",
+    "lib/python3.10/site-packages/altair/jupyter/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/jupyter/__pycache__/jupyter_chart.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/jupyter/js/README.md",
+    "lib/python3.10/site-packages/altair/jupyter/js/index.js",
+    "lib/python3.10/site-packages/altair/jupyter/jupyter_chart.py",
+    "lib/python3.10/site-packages/altair/py.typed",
+    "lib/python3.10/site-packages/altair/theme.py",
+    "lib/python3.10/site-packages/altair/typing/__init__.py",
+    "lib/python3.10/site-packages/altair/typing/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__init__.py",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/_dfi_types.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/_importers.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/_show.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/_transformed_data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/_vegafusion_data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/compiler.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/deprecation.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/execeval.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/html.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/mimebundle.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/plugin_registry.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/save.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/schemapi.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/selection.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/__pycache__/server.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/utils/_dfi_types.py",
+    "lib/python3.10/site-packages/altair/utils/_importers.py",
+    "lib/python3.10/site-packages/altair/utils/_show.py",
+    "lib/python3.10/site-packages/altair/utils/_transformed_data.py",
+    "lib/python3.10/site-packages/altair/utils/_vegafusion_data.py",
+    "lib/python3.10/site-packages/altair/utils/compiler.py",
+    "lib/python3.10/site-packages/altair/utils/core.py",
+    "lib/python3.10/site-packages/altair/utils/data.py",
+    "lib/python3.10/site-packages/altair/utils/deprecation.py",
+    "lib/python3.10/site-packages/altair/utils/display.py",
+    "lib/python3.10/site-packages/altair/utils/execeval.py",
+    "lib/python3.10/site-packages/altair/utils/html.py",
+    "lib/python3.10/site-packages/altair/utils/mimebundle.py",
+    "lib/python3.10/site-packages/altair/utils/plugin_registry.py",
+    "lib/python3.10/site-packages/altair/utils/save.py",
+    "lib/python3.10/site-packages/altair/utils/schemapi.py",
+    "lib/python3.10/site-packages/altair/utils/selection.py",
+    "lib/python3.10/site-packages/altair/utils/server.py",
+    "lib/python3.10/site-packages/altair/vegalite/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/__pycache__/schema.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/api.py",
+    "lib/python3.10/site-packages/altair/vegalite/data.py",
+    "lib/python3.10/site-packages/altair/vegalite/display.py",
+    "lib/python3.10/site-packages/altair/vegalite/schema.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/api.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/compiler.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/data.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/display.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/theme.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/api.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/compiler.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/data.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/display.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/__init__.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/_config.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/_typing.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/channels.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/mixins.cpython-310.pyc",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/_config.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/_typing.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/channels.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/core.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/mixins.py",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/vega-lite-schema.json",
+    "lib/python3.10/site-packages/altair/vegalite/v5/schema/vega-themes.json",
+    "lib/python3.10/site-packages/altair/vegalite/v5/theme.py"
+  ],
+  "fn": "altair-5.5.0-py310hca03da5_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/anaconda3/pkgs/altair-5.5.0-py310hca03da5_0",
+    "type": 1
+  },
+  "md5": "18d2ed0d8d363487e9373d94a640fb73",
+  "name": "altair",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/altair-5.5.0-py310hca03da5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/altair-5.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair-5.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b50df676547d732c63fa9847e13aee0dfad1f4b0959c0c6ea60bdbf5d763e8fd",
+        "sha256_in_prefix": "b50df676547d732c63fa9847e13aee0dfad1f4b0959c0c6ea60bdbf5d763e8fd",
+        "size_in_bytes": 11243
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair-5.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "48aba460e67795e6668d9089aaa6081fb77898563a8d4a76899a7b0ac52c2dec",
+        "sha256_in_prefix": "48aba460e67795e6668d9089aaa6081fb77898563a8d4a76899a7b0ac52c2dec",
+        "size_in_bytes": 7409
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair-5.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair-5.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair-5.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a26708da4c0d76372ddd0e6582773bcde2c0c049ac8511ccea3822e385520737",
+        "sha256_in_prefix": "a26708da4c0d76372ddd0e6582773bcde2c0c049ac8511ccea3822e385520737",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair-5.5.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "14bf5abd0aa392f806fa0bbc88f51de36964d53071a687631e621807e556331e",
+        "sha256_in_prefix": "14bf5abd0aa392f806fa0bbc88f51de36964d53071a687631e621807e556331e",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8770105f93f71c26cc87fe6097f335706946860c6fb85d62f34a107c72061da1",
+        "sha256_in_prefix": "8770105f93f71c26cc87fe6097f335706946860c6fb85d62f34a107c72061da1",
+        "size_in_bytes": 17525
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2c6bdf06e889572555b4304782a05e63eb99925faa8bf3039a2ef83bdb917d3",
+        "sha256_in_prefix": "d2c6bdf06e889572555b4304782a05e63eb99925faa8bf3039a2ef83bdb917d3",
+        "size_in_bytes": 13613
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/__pycache__/_magics.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ce6294448e91b145d6f20eb9769dbd4c23556f23de5794068594d7609cc3060",
+        "sha256_in_prefix": "2ce6294448e91b145d6f20eb9769dbd4c23556f23de5794068594d7609cc3060",
+        "size_in_bytes": 2923
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/__pycache__/theme.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f1b127394465325cd877cbd805b45fe1e3c76251c991b6bd310649b5a74ce01b",
+        "sha256_in_prefix": "f1b127394465325cd877cbd805b45fe1e3c76251c991b6bd310649b5a74ce01b",
+        "size_in_bytes": 7485
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/_magics.py",
+        "path_type": "hardlink",
+        "sha256": "705441ad4d7c4ac4a2f4bae21b592c4cdb60593c421d4851681722c521bfee85",
+        "sha256_in_prefix": "705441ad4d7c4ac4a2f4bae21b592c4cdb60593c421d4851681722c521bfee85",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2c0456a1c23b46d8b499445610fb3d52c5b5132d80c26100a30976cd30297603",
+        "sha256_in_prefix": "2c0456a1c23b46d8b499445610fb3d52c5b5132d80c26100a30976cd30297603",
+        "size_in_bytes": 79818
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3603f211191106210aad5b0966851fc40b0e210a2614faf55d9b195dfe3dfba1",
+        "sha256_in_prefix": "3603f211191106210aad5b0966851fc40b0e210a2614faf55d9b195dfe3dfba1",
+        "size_in_bytes": 73915
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/consts.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bde64ee2910b3fcbda51d39da94258c9ddaf1874852fd9dea8e8107cced8c0ca",
+        "sha256_in_prefix": "bde64ee2910b3fcbda51d39da94258c9ddaf1874852fd9dea8e8107cced8c0ca",
+        "size_in_bytes": 724
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b7a5815831a45bd503269840e443723ad46f6a1225b23ae9c51dfbda29bc3c8",
+        "sha256_in_prefix": "0b7a5815831a45bd503269840e443723ad46f6a1225b23ae9c51dfbda29bc3c8",
+        "size_in_bytes": 10238
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/__pycache__/funcs.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "018acc3a0cc3b6ea23b31f50cfaa0ed065273ac718acb032839d5a09446dd09b",
+        "sha256_in_prefix": "018acc3a0cc3b6ea23b31f50cfaa0ed065273ac718acb032839d5a09446dd09b",
+        "size_in_bytes": 34362
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/consts.py",
+        "path_type": "hardlink",
+        "sha256": "37bc155758e929e101121e2ec8339b9f80186c04497972ae109232337c090a11",
+        "sha256_in_prefix": "37bc155758e929e101121e2ec8339b9f80186c04497972ae109232337c090a11",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/core.py",
+        "path_type": "hardlink",
+        "sha256": "41f697968213d2e704609f11844f15661a184ee36d32336a7af99ea0bd98e225",
+        "sha256_in_prefix": "41f697968213d2e704609f11844f15661a184ee36d32336a7af99ea0bd98e225",
+        "size_in_bytes": 8292
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/expr/funcs.py",
+        "path_type": "hardlink",
+        "sha256": "05378c0eaf9814f48e29dc7403ecb4559afa6750b2c1261ebfa00f9c1296ebc7",
+        "sha256_in_prefix": "05378c0eaf9814f48e29dc7403ecb4559afa6750b2c1261ebfa00f9c1296ebc7",
+        "size_in_bytes": 33826
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/jupyter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bee5bf5a92fe8b4f8969329b0cf4e93b040dbdb0ea3bd1ae93755e8fa3e11fc0",
+        "sha256_in_prefix": "bee5bf5a92fe8b4f8969329b0cf4e93b040dbdb0ea3bd1ae93755e8fa3e11fc0",
+        "size_in_bytes": 876
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/jupyter/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5605a5e146963dad97ac5cc53b8fb57a12e2d1c58ce9e66008c31d854a8c680",
+        "sha256_in_prefix": "b5605a5e146963dad97ac5cc53b8fb57a12e2d1c58ce9e66008c31d854a8c680",
+        "size_in_bytes": 819
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/jupyter/__pycache__/jupyter_chart.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "10be4899ca833f8a839256d96710df66469185ba27025bb604f7913db2719e7b",
+        "sha256_in_prefix": "10be4899ca833f8a839256d96710df66469185ba27025bb604f7913db2719e7b",
+        "size_in_bytes": 10902
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/jupyter/js/README.md",
+        "path_type": "hardlink",
+        "sha256": "8b0cebca1014826f870fb2aea6f295d93298e54ef84bb98bc8629ed2b801e03f",
+        "sha256_in_prefix": "8b0cebca1014826f870fb2aea6f295d93298e54ef84bb98bc8629ed2b801e03f",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/jupyter/js/index.js",
+        "path_type": "hardlink",
+        "sha256": "5d526e10e51323dc32cd53023ac0fab1b0e1755cfcabb37cf53e9a8ca2286088",
+        "sha256_in_prefix": "5d526e10e51323dc32cd53023ac0fab1b0e1755cfcabb37cf53e9a8ca2286088",
+        "size_in_bytes": 7936
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/jupyter/jupyter_chart.py",
+        "path_type": "hardlink",
+        "sha256": "b62225fa0eba6c7e6fe611621bb5be5b0a11fc24954bdef43fc3d6c2eeff8f60",
+        "sha256_in_prefix": "b62225fa0eba6c7e6fe611621bb5be5b0a11fc24954bdef43fc3d6c2eeff8f60",
+        "size_in_bytes": 15231
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/theme.py",
+        "path_type": "hardlink",
+        "sha256": "2c49178c3686594be56dcdfce1eaa45dc547fab64b64dea961fface3f6a2f106",
+        "sha256_in_prefix": "2c49178c3686594be56dcdfce1eaa45dc547fab64b64dea961fface3f6a2f106",
+        "size_in_bytes": 8361
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/typing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1ffe677e50d2f09c8f577e6a660bdfa150efbfef7b9fb5d77cf0c3bd4efad795",
+        "sha256_in_prefix": "1ffe677e50d2f09c8f577e6a660bdfa150efbfef7b9fb5d77cf0c3bd4efad795",
+        "size_in_bytes": 1956
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/typing/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "10ab81b634967216d9cf80e4bc8ead3a6a0c3787f9b889a117c554982824dffe",
+        "sha256_in_prefix": "10ab81b634967216d9cf80e4bc8ead3a6a0c3787f9b889a117c554982824dffe",
+        "size_in_bytes": 1665
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "317d99fb849be966ff4fb306e70a6439803e47e1efac5b7256b6682f11c207e1",
+        "sha256_in_prefix": "317d99fb849be966ff4fb306e70a6439803e47e1efac5b7256b6682f11c207e1",
+        "size_in_bytes": 949
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab8dc9d6f241e9b78c0442609d6a8d587a813cba2979adf21c3bb9ebe3ecf3d2",
+        "sha256_in_prefix": "ab8dc9d6f241e9b78c0442609d6a8d587a813cba2979adf21c3bb9ebe3ecf3d2",
+        "size_in_bytes": 877
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/_dfi_types.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a50885867a98b4b824698a503b8413648e99e221a9e5be8c171a448fe6cec2ea",
+        "sha256_in_prefix": "a50885867a98b4b824698a503b8413648e99e221a9e5be8c171a448fe6cec2ea",
+        "size_in_bytes": 6741
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/_importers.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7538c4210a5f27afcf5b4b281b0a31ba3e1adf950edac4c2af1006925e222c6f",
+        "sha256_in_prefix": "7538c4210a5f27afcf5b4b281b0a31ba3e1adf950edac4c2af1006925e222c6f",
+        "size_in_bytes": 3300
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/_show.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7c708bfb5b4e3d7cd8590200537c815ad2eb23aaeef2e547d925b53199af8720",
+        "sha256_in_prefix": "7c708bfb5b4e3d7cd8590200537c815ad2eb23aaeef2e547d925b53199af8720",
+        "size_in_bytes": 2475
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/_transformed_data.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "54d380d6a71502cb6240c10a72c3ef36390ee788f1260cb466c56d6122efac56",
+        "sha256_in_prefix": "54d380d6a71502cb6240c10a72c3ef36390ee788f1260cb466c56d6122efac56",
+        "size_in_bytes": 13870
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/_vegafusion_data.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "92166117c15bdbef8f19066d74d81323983c8532b19efec656b0e0b52685f100",
+        "sha256_in_prefix": "92166117c15bdbef8f19066d74d81323983c8532b19efec656b0e0b52685f100",
+        "size_in_bytes": 8306
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/compiler.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c7c1f161552ff43766cdab7b0c135aea6806bedeff07de0ebe7f83cc39e39a0",
+        "sha256_in_prefix": "9c7c1f161552ff43766cdab7b0c135aea6806bedeff07de0ebe7f83cc39e39a0",
+        "size_in_bytes": 506
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4096a2e2c38411492e21dda049353925af72c8acea2ac763459e73824bc8337c",
+        "sha256_in_prefix": "4096a2e2c38411492e21dda049353925af72c8acea2ac763459e73824bc8337c",
+        "size_in_bytes": 24941
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/data.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e51f90d3db6257416775d83abee8d646b21a7f9d65c23c6f12bbb89aefd83ead",
+        "sha256_in_prefix": "e51f90d3db6257416775d83abee8d646b21a7f9d65c23c6f12bbb89aefd83ead",
+        "size_in_bytes": 12178
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/deprecation.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f13bf41ce534f32af0c315e7e91a75f35680b0b7c20afcfeb025b73a0f36867",
+        "sha256_in_prefix": "9f13bf41ce534f32af0c315e7e91a75f35680b0b7c20afcfeb025b73a0f36867",
+        "size_in_bytes": 5021
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/display.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "af46a658efda6839b8c8581eaa884b270d7897462ccb528db28900efbb727392",
+        "sha256_in_prefix": "af46a658efda6839b8c8581eaa884b270d7897462ccb528db28900efbb727392",
+        "size_in_bytes": 8391
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/execeval.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4d2f4a1f1daa52fe6d458dfbcb658f41e21ba4364d270521bcd35315a63a4b13",
+        "sha256_in_prefix": "4d2f4a1f1daa52fe6d458dfbcb658f41e21ba4364d270521bcd35315a63a4b13",
+        "size_in_bytes": 2989
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/html.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6d2cab4e4228829f0d644add13fb0773394a8981c6adff28ec9cd3171763c4d",
+        "sha256_in_prefix": "c6d2cab4e4228829f0d644add13fb0773394a8981c6adff28ec9cd3171763c4d",
+        "size_in_bytes": 12945
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/mimebundle.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f2258f309d47f9724fd68755aa027897d2bc5c6fd737f6359dd0c5a14a43c24",
+        "sha256_in_prefix": "4f2258f309d47f9724fd68755aa027897d2bc5c6fd737f6359dd0c5a14a43c24",
+        "size_in_bytes": 8996
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/plugin_registry.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "95a2663ed2c4c413dcbb7bbab32a7c5db65af10a357dc6dc04062150d9807c92",
+        "sha256_in_prefix": "95a2663ed2c4c413dcbb7bbab32a7c5db65af10a357dc6dc04062150d9807c92",
+        "size_in_bytes": 9959
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/save.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d902188e3e81701585d5f86c4485ab2b3a66bdd3b1ef6284bcabe21e5212df79",
+        "sha256_in_prefix": "d902188e3e81701585d5f86c4485ab2b3a66bdd3b1ef6284bcabe21e5212df79",
+        "size_in_bytes": 6404
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/schemapi.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2383c120e751215b872775c8431f881fe7200c429986132f5a406c79c5927d76",
+        "sha256_in_prefix": "2383c120e751215b872775c8431f881fe7200c429986132f5a406c79c5927d76",
+        "size_in_bytes": 48512
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/selection.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "44ce5f49c6273c2a675a2e1e435b2cba5112cfc0acf8b0129b9078aceed3592b",
+        "sha256_in_prefix": "44ce5f49c6273c2a675a2e1e435b2cba5112cfc0acf8b0129b9078aceed3592b",
+        "size_in_bytes": 4385
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/__pycache__/server.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "74fbbe66c729209ea5f9a649d6a1083708db9cb12443d8b4825de99158653993",
+        "sha256_in_prefix": "74fbbe66c729209ea5f9a649d6a1083708db9cb12443d8b4825de99158653993",
+        "size_in_bytes": 4977
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/_dfi_types.py",
+        "path_type": "hardlink",
+        "sha256": "68acc0ad5e076945d4be29c3afc978dbc109ff658a182b144343b58ffd76a062",
+        "sha256_in_prefix": "68acc0ad5e076945d4be29c3afc978dbc109ff658a182b144343b58ffd76a062",
+        "size_in_bytes": 6512
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/_importers.py",
+        "path_type": "hardlink",
+        "sha256": "d1950608315d82a271c1449f4f829512d2c34a0a981a2bea467de78b4680fc40",
+        "sha256_in_prefix": "d1950608315d82a271c1449f4f829512d2c34a0a981a2bea467de78b4680fc40",
+        "size_in_bytes": 4111
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/_show.py",
+        "path_type": "hardlink",
+        "sha256": "fb18480693234ee3633ac2fbaf0f209593f4df1d6cb2ecfeb3d1d2dd8248deb4",
+        "sha256_in_prefix": "fb18480693234ee3633ac2fbaf0f209593f4df1d6cb2ecfeb3d1d2dd8248deb4",
+        "size_in_bytes": 2310
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/_transformed_data.py",
+        "path_type": "hardlink",
+        "sha256": "15e20eb2471d81b03eeb1987ded582e4826a272f1ce091cfba9245d2d3b9d1f2",
+        "sha256_in_prefix": "15e20eb2471d81b03eeb1987ded582e4826a272f1ce091cfba9245d2d3b9d1f2",
+        "size_in_bytes": 18272
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/_vegafusion_data.py",
+        "path_type": "hardlink",
+        "sha256": "857633c0bb056b2d1a8397258f29fe65ab139e6aede92ecc6ec4cc01e5524379",
+        "sha256_in_prefix": "857633c0bb056b2d1a8397258f29fe65ab139e6aede92ecc6ec4cc01e5524379",
+        "size_in_bytes": 9653
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/compiler.py",
+        "path_type": "hardlink",
+        "sha256": "843a2774ef040ec634de32ccddf390367f7fd50e7bec526852f873a323eba08f",
+        "sha256_in_prefix": "843a2774ef040ec634de32ccddf390367f7fd50e7bec526852f873a323eba08f",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/core.py",
+        "path_type": "hardlink",
+        "sha256": "3830120f0ceb71d8e4ee4d96d58ae23bcdcd429fcca1ecc07e4b1b424f565fc1",
+        "sha256_in_prefix": "3830120f0ceb71d8e4ee4d96d58ae23bcdcd429fcca1ecc07e4b1b424f565fc1",
+        "size_in_bytes": 31763
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/data.py",
+        "path_type": "hardlink",
+        "sha256": "b7020f59cca3ce6e2744ffcb0765a97bc460f00beceb47c4ec41b9f38ce70306",
+        "sha256_in_prefix": "b7020f59cca3ce6e2744ffcb0765a97bc460f00beceb47c4ec41b9f38ce70306",
+        "size_in_bytes": 14684
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "a217cb0fb022fd887c0a87a29d80a0abc6dec3bc414309bcba3946a5d042d8d3",
+        "sha256_in_prefix": "a217cb0fb022fd887c0a87a29d80a0abc6dec3bc414309bcba3946a5d042d8d3",
+        "size_in_bytes": 5620
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/display.py",
+        "path_type": "hardlink",
+        "sha256": "244aadba0f83a01d8a4f3138553311d0fae338f37a9e568163ddc8e84fe94595",
+        "sha256_in_prefix": "244aadba0f83a01d8a4f3138553311d0fae338f37a9e568163ddc8e84fe94595",
+        "size_in_bytes": 8671
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/execeval.py",
+        "path_type": "hardlink",
+        "sha256": "5bd4e7a0846801e39da50a5a7e509d0574f805439ec7172cc664e33338dca5d7",
+        "sha256_in_prefix": "5bd4e7a0846801e39da50a5a7e509d0574f805439ec7172cc664e33338dca5d7",
+        "size_in_bytes": 2691
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/html.py",
+        "path_type": "hardlink",
+        "sha256": "71f26d7de17eef45117edf48714f7dbf624442073791615260152f641fea6034",
+        "sha256_in_prefix": "71f26d7de17eef45117edf48714f7dbf624442073791615260152f641fea6034",
+        "size_in_bytes": 13763
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/mimebundle.py",
+        "path_type": "hardlink",
+        "sha256": "af575a0b43f00b62342ad12c16356818a8c981e9578948f0267f1c763db866d5",
+        "sha256_in_prefix": "af575a0b43f00b62342ad12c16356818a8c981e9578948f0267f1c763db866d5",
+        "size_in_bytes": 13035
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/plugin_registry.py",
+        "path_type": "hardlink",
+        "sha256": "3c9242c3e058a5aae364af6a5b382e8a6f00a8fd9dbd632510b18682e8826c7a",
+        "sha256_in_prefix": "3c9242c3e058a5aae364af6a5b382e8a6f00a8fd9dbd632510b18682e8826c7a",
+        "size_in_bytes": 10013
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/save.py",
+        "path_type": "hardlink",
+        "sha256": "c769616bf4509d6fb8c729885bc161410b30a5a9ea1a4ac4b7e1d770bc3e9701",
+        "sha256_in_prefix": "c769616bf4509d6fb8c729885bc161410b30a5a9ea1a4ac4b7e1d770bc3e9701",
+        "size_in_bytes": 8348
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/schemapi.py",
+        "path_type": "hardlink",
+        "sha256": "39b485e97904aaea196d2dbaf9dceb846738610f7bfba3f14bf4e987fc51a47d",
+        "sha256_in_prefix": "39b485e97904aaea196d2dbaf9dceb846738610f7bfba3f14bf4e987fc51a47d",
+        "size_in_bytes": 61060
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/selection.py",
+        "path_type": "hardlink",
+        "sha256": "ddf72a4da5ccad270491fe823902633c2e449b7c39bf589ec343607dbddc68af",
+        "sha256_in_prefix": "ddf72a4da5ccad270491fe823902633c2e449b7c39bf589ec343607dbddc68af",
+        "size_in_bytes": 3928
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/utils/server.py",
+        "path_type": "hardlink",
+        "sha256": "ef817ca1bdfb139d9ed957896ddc2a5f8d31527081ff0e500b6209252ab0ec61",
+        "sha256_in_prefix": "ef817ca1bdfb139d9ed957896ddc2a5f8d31527081ff0e500b6209252ab0ec61",
+        "size_in_bytes": 4100
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "219fead03753f09e301865e8d5b3e9d34d67e383bc9ecdbae99a616d6708982c",
+        "sha256_in_prefix": "219fead03753f09e301865e8d5b3e9d34d67e383bc9ecdbae99a616d6708982c",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b2fce37398604b7a3798f0f35d9fd8e3eabdf7f4e4a1448391f4158125eb4a7",
+        "sha256_in_prefix": "9b2fce37398604b7a3798f0f35d9fd8e3eabdf7f4e4a1448391f4158125eb4a7",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b858e9ffd2432ffc0e51f14f67d21b0a30300f0057c7b06dc105cfb2e7e477ac",
+        "sha256_in_prefix": "b858e9ffd2432ffc0e51f14f67d21b0a30300f0057c7b06dc105cfb2e7e477ac",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/data.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9db025a6cda46700477332073c8421413757cfdb64a4e36b11be35618dbffdda",
+        "sha256_in_prefix": "9db025a6cda46700477332073c8421413757cfdb64a4e36b11be35618dbffdda",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/display.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c2306288051b00f0de87b459c0c6a40ca98650a03e0a4d5e124c87ab91b49b5",
+        "sha256_in_prefix": "0c2306288051b00f0de87b459c0c6a40ca98650a03e0a4d5e124c87ab91b49b5",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/__pycache__/schema.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8184c1fd55952a286a9adeda34d0a3998fcc62ab1295ce8076c57bf23c270385",
+        "sha256_in_prefix": "8184c1fd55952a286a9adeda34d0a3998fcc62ab1295ce8076c57bf23c270385",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/api.py",
+        "path_type": "hardlink",
+        "sha256": "919128caad672a114d4dc5ba191332bfb3589505ea72916e6779bc7910299848",
+        "sha256_in_prefix": "919128caad672a114d4dc5ba191332bfb3589505ea72916e6779bc7910299848",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/data.py",
+        "path_type": "hardlink",
+        "sha256": "83267a544db2eed8f96541d00fe0523dbdcde61c83915d691b66d4075d174f00",
+        "sha256_in_prefix": "83267a544db2eed8f96541d00fe0523dbdcde61c83915d691b66d4075d174f00",
+        "size_in_bytes": 1751
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/display.py",
+        "path_type": "hardlink",
+        "sha256": "50b4f567abce3652421c08fcbaa2d56fd2c29cfa43e3c277e18f3e69579a64d5",
+        "sha256_in_prefix": "50b4f567abce3652421c08fcbaa2d56fd2c29cfa43e3c277e18f3e69579a64d5",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/schema.py",
+        "path_type": "hardlink",
+        "sha256": "e14346c3e38eebf12ce34ee6ebc93a2734dd73ddebb675e5ec01be6d5be00ad2",
+        "sha256_in_prefix": "e14346c3e38eebf12ce34ee6ebc93a2734dd73ddebb675e5ec01be6d5be00ad2",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "16bc8d69adeb19adcf87392b9c64c16fdd0bf27889088dda816dde51e4542211",
+        "sha256_in_prefix": "16bc8d69adeb19adcf87392b9c64c16fdd0bf27889088dda816dde51e4542211",
+        "size_in_bytes": 15968
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b77711b79ba40ce318d5b27fbf4ea9da2b110fb4818a6a3577c19beaf2a1e23",
+        "sha256_in_prefix": "4b77711b79ba40ce318d5b27fbf4ea9da2b110fb4818a6a3577c19beaf2a1e23",
+        "size_in_bytes": 12223
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/api.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d77ea63e3edcf52f7d2dcdf5bfa4632ce971f664763ad75cfec766df3db5a485",
+        "sha256_in_prefix": "d77ea63e3edcf52f7d2dcdf5bfa4632ce971f664763ad75cfec766df3db5a485",
+        "size_in_bytes": 162812
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/compiler.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f145fcf88312e7f539e1ead9330507a7924c33f3404c4c7b8e48be30662a6837",
+        "sha256_in_prefix": "f145fcf88312e7f539e1ead9330507a7924c33f3404c4c7b8e48be30662a6837",
+        "size_in_bytes": 893
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/data.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "554363c372bad1fa5466305917cc6427dd9ce2b61c6d777660b13070d9e76aa8",
+        "sha256_in_prefix": "554363c372bad1fa5466305917cc6427dd9ce2b61c6d777660b13070d9e76aa8",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/display.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "28481380a5f3d1195be5f7175337af7f7cff26042095c41a2a4aad857d469824",
+        "sha256_in_prefix": "28481380a5f3d1195be5f7175337af7f7cff26042095c41a2a4aad857d469824",
+        "size_in_bytes": 4386
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/__pycache__/theme.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3010a50af930917970d6b88a0d5846bbfe1e7c8702a53a4c7ad4ea1bc1f41fba",
+        "sha256_in_prefix": "3010a50af930917970d6b88a0d5846bbfe1e7c8702a53a4c7ad4ea1bc1f41fba",
+        "size_in_bytes": 4351
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/api.py",
+        "path_type": "hardlink",
+        "sha256": "588d981bb02cf7e14508087ad4c2bf08c6dee05cdbde5992595288ff8f6acb37",
+        "sha256_in_prefix": "588d981bb02cf7e14508087ad4c2bf08c6dee05cdbde5992595288ff8f6acb37",
+        "size_in_bytes": 191214
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/compiler.py",
+        "path_type": "hardlink",
+        "sha256": "3e6a4f8011e8700002962376ae2696ea5295b133837cce9e90844602a28cb013",
+        "sha256_in_prefix": "3e6a4f8011e8700002962376ae2696ea5295b133837cce9e90844602a28cb013",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/data.py",
+        "path_type": "hardlink",
+        "sha256": "4519d8e647dcc14620b1e5e84e424376a5211641307642a5bd3f3fcafa6a000c",
+        "sha256_in_prefix": "4519d8e647dcc14620b1e5e84e424376a5211641307642a5bd3f3fcafa6a000c",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/display.py",
+        "path_type": "hardlink",
+        "sha256": "0503f1d60c103870de5a8234aef9dc45f7a55f7ed4deac86a68e1407c36d0385",
+        "sha256_in_prefix": "0503f1d60c103870de5a8234aef9dc45f7a55f7ed4deac86a68e1407c36d0385",
+        "size_in_bytes": 6087
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "21738323495b624ac5b11e79db4aedabd6a98061ca95d2c1af134ae40fb042a2",
+        "sha256_in_prefix": "21738323495b624ac5b11e79db4aedabd6a98061ca95d2c1af134ae40fb042a2",
+        "size_in_bytes": 14447
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2131a3c6dc058698bcd73aef74a99a148f98af8467a4ce473383e468eb99658f",
+        "sha256_in_prefix": "2131a3c6dc058698bcd73aef74a99a148f98af8467a4ce473383e468eb99658f",
+        "size_in_bytes": 11131
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/_config.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd6a01e0e894e68c5e6b413be7297cb8358d65e9f27dd9ca7ea8875da6a17a95",
+        "sha256_in_prefix": "cd6a01e0e894e68c5e6b413be7297cb8358d65e9f27dd9ca7ea8875da6a17a95",
+        "size_in_bytes": 297831
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/_typing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "685cad4a9618fd1bc9d4fe5a164def9cd061d470ecc258bf0e1eaf4b90ffb517",
+        "sha256_in_prefix": "685cad4a9618fd1bc9d4fe5a164def9cd061d470ecc258bf0e1eaf4b90ffb517",
+        "size_in_bytes": 16722
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/channels.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "51fb9e3ac8d35df4cd88bdce177a2269407cb6ee87509c8ada0e4d365bd8cc3e",
+        "sha256_in_prefix": "51fb9e3ac8d35df4cd88bdce177a2269407cb6ee87509c8ada0e4d365bd8cc3e",
+        "size_in_bytes": 957554
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d8eccc3736b58a7c3b94a14071653a5ddfa75b2d1ecc34acff544a295cd9ce0f",
+        "sha256_in_prefix": "d8eccc3736b58a7c3b94a14071653a5ddfa75b2d1ecc34acff544a295cd9ce0f",
+        "size_in_bytes": 1424129
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/__pycache__/mixins.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bea866b6e7562837e92c38c86a6666c4889742686d6b9e5ffe73232d8915608e",
+        "sha256_in_prefix": "bea866b6e7562837e92c38c86a6666c4889742686d6b9e5ffe73232d8915608e",
+        "size_in_bytes": 73603
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/_config.py",
+        "path_type": "hardlink",
+        "sha256": "04e009c9f4deca5fd24b2de07289f80a29dc2e897ef0b1587d1d10cf2e1aaecd",
+        "sha256_in_prefix": "04e009c9f4deca5fd24b2de07289f80a29dc2e897ef0b1587d1d10cf2e1aaecd",
+        "size_in_bytes": 304714
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "8ed04b22d63cfd641634c8a5ba36166795b6add65699a80e1cbd5136f098985f",
+        "sha256_in_prefix": "8ed04b22d63cfd641634c8a5ba36166795b6add65699a80e1cbd5136f098985f",
+        "size_in_bytes": 23551
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/channels.py",
+        "path_type": "hardlink",
+        "sha256": "6f4f4da227e4879a32db8a216d26efbe1feff42cd6f8d2496502563605638ee8",
+        "sha256_in_prefix": "6f4f4da227e4879a32db8a216d26efbe1feff42cd6f8d2496502563605638ee8",
+        "size_in_bytes": 1177684
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/core.py",
+        "path_type": "hardlink",
+        "sha256": "9b4452e8757b5adc58190e9fabe5be3e977f13ff2b095259f012f4f4dde8fe0e",
+        "sha256_in_prefix": "9b4452e8757b5adc58190e9fabe5be3e977f13ff2b095259f012f4f4dde8fe0e",
+        "size_in_bytes": 1554066
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/mixins.py",
+        "path_type": "hardlink",
+        "sha256": "fa744653a3447902e319ec0ce792522d2d00d66bb05aa91b47ad8cd7d90572cf",
+        "sha256_in_prefix": "fa744653a3447902e319ec0ce792522d2d00d66bb05aa91b47ad8cd7d90572cf",
+        "size_in_bytes": 87170
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/vega-lite-schema.json",
+        "path_type": "hardlink",
+        "sha256": "a7f6f67975cbc05f97730d94a4a14b38d59ba1f2e4f31e12b866e50b481146de",
+        "sha256_in_prefix": "a7f6f67975cbc05f97730d94a4a14b38d59ba1f2e4f31e12b866e50b481146de",
+        "size_in_bytes": 1847283
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/schema/vega-themes.json",
+        "path_type": "hardlink",
+        "sha256": "4b0538e6bc5824e07aea71bc2187bd82cd3141c2fcde998d9b9112f46ec4000f",
+        "sha256_in_prefix": "4b0538e6bc5824e07aea71bc2187bd82cd3141c2fcde998d9b9112f46ec4000f",
+        "size_in_bytes": 25729
+      },
+      {
+        "_path": "lib/python3.10/site-packages/altair/vegalite/v5/theme.py",
+        "path_type": "hardlink",
+        "sha256": "c29ec22a1c5a383688bc3752e4f6900dcaa3b056e507b1ee46362a45ab923c36",
+        "sha256_in_prefix": "c29ec22a1c5a383688bc3752e4f6900dcaa3b056e507b1ee46362a45ab923c36",
+        "size_in_bytes": 3823
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5bb7c66a6ac7067dc50601586d5f01b96a2fa408b0204b8589f8ef364a7d90ba",
+  "size": 727503,
+  "subdir": "osx-arm64",
+  "timestamp": 1743017042000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/altair-5.5.0-py310hca03da5_0.conda",
+  "version": "5.5.0"
+}

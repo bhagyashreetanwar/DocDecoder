@@ -1,0 +1,14 @@
+prefix=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv
+exec_prefix=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv
+libdir=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv/lib
+includedir=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.2.20
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/Users/bhagyashreetanwar/Desktop/DocDecoder/venv/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

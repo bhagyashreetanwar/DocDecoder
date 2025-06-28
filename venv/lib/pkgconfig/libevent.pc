@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv
+exec_prefix=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv
+libdir=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv/lib
+includedir=/Users/bhagyashreetanwar/Desktop/DocDecoder/venv/include
+
+Name: libevent
+Description: libevent is an asynchronous notification event loop library
+Version: 2.1.12
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent
+Libs.private: 
+Cflags: -I${includedir}
+
