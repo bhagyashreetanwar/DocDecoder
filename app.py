@@ -125,7 +125,7 @@ def user_input(user_question):
         
         # Check if faiss_index exists
         if not os.path.exists("faiss_index"):
-            st.error("Please upload and process PDF files first!")
+            st.error("Please upload and process your files first!")
             return
             
         new_db = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
